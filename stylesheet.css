@@ -1,0 +1,9 @@
+.bg {
+    background-color: #8fbd35;
+    padding: 20px;
+}
+.f1 { 
+    border-radius: 10px;
+    filter: brightness(60%);
+}
+
