@@ -1,0 +1,228 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color:rgb(255, 255, 255);
+    font-size: 16px;
+    line-height: 1.6;
+    min-width: 320px;
+    position: relative;
+    margin: 0;
+    padding: 0;
+}
+h1,h2,h3,h4,h5,h6 {
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+
+a {
+    color: inherit;
+    text-decoration: 0;
+}
+
+hr {
+    margin: 70px 0;
+      padding: 0;
+      height: 0;
+      border: none;
+      border-top: 1px solid #333;
+      border-bottom: 1px solid #1f1209;
+      box-shadow: 0 20px 20px -20px #333;
+}
+* {
+    font-family: "Comfortaa";
+}
+
+
+.container {
+    max-width: 1650px;
+    padding: 0;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.container-sec {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    max-width: 1650px;
+    padding: 0;
+    margin: 0 auto;
+}
+
+.container-sec p {
+    color: grey;
+    font-size: 20px;
+}
+.header-logo img {
+    width: 60px;
+    height: 60px;
+}
+.header-logo {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.header-top {
+    flex-shrink: 0;
+    background-color: #5A4F4F;
+    color: #fff;
+    padding: 16px 0;
+    font-size: 17px;
+    border-radius: 0px;
+}
+
+.header-row {
+    display: flex;
+}
+
+.header-right {
+    display: flex;
+    column-gap: 74px;
+    margin: auto;
+
+}
+
+.header-info {
+    display: flex;
+    align-items: center;
+}
+
+.header-info img {
+    margin-right: 10px;
+    max-width: 21px;
+
+}
+
+.header-social {
+    display: flex;
+    align-items: center;
+    column-gap: 12px;
+}
+/* Конец header */
+
+.btn-group button {
+    display: flex;
+    opacity: 0;
+    animation: ani 3.5s forwards;
+    background-color: #D9D9D9; 
+    color: black; 
+    padding: 20px 100px; 
+    float: left; 
+    margin: 50px 20px;
+    border-radius: 45px;
+    border: none;
+}
+
+.btn-group button:hover {
+  background-color: #C5C5C5;
+}
+
+
+/* Начало main info*/
+
+.container-main {
+    max-width: 1650px;
+    padding: 20px;
+    
+}
+
+.main-content {
+    margin: 10px;
+}
+
+     .main-info{
+    position: absolute;
+    color: #fafafa60;
+    margin-top:500px;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    font-size: 6rem;
+    -webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none; /* Safari */
+    -khtml-user-select: none; /* Konqueror HTML */
+    -moz-user-select: none; /* Old versions of Firefox */
+    -ms-user-select: none; /* Internet Explorer/Edge */
+    user-select: none; 
+}
+ 
+
+.main-info hr {
+    color: #fafafa60;
+}
+
+.main {
+    margin: 10px;
+    width: 1770px;
+    height: 630px;
+}
+.center {
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.center img {
+    opacity: 0;
+    animation: ani 2.2s forwards;
+    height: 40rem;
+    width: 100%;
+    border-radius: 0px;
+}
+
+.img {
+    width: 100%;
+    height: 1000px;
+}
+
+
+@keyframes ani {
+    0% {opacity: 0;}
+    100% {opacity: 1;}
+  }
+
+/* .main-center {
+    display: flex;
+    margin: auto;
+    height: 400px;
+    width: 1200px;
+}   */
+
+/* .main-center {
+    display: flex;
+    object-fit: cover;
+    margin: -10;
+} */
+
+a:hover img {
+    transform:scale(1.1);
+}
+
+
+
+#connect span {
+    font-size: 3vw; /* 3% of viewport width */
+}
+
+.back-to-top {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    font-size: 25px;
+    color: #ffffff00;
+    width: 25px;
+    background: #ffffff00;
+    border: 1px solid black;
+    padding: 10px 15px 5px 15px;
+    border-radius: 50px;
+    cursor: pointer;
+    z-index: 1000;
+}
+ 
+.back-to-top:hover {
+  background: #7c7c7c;
+  text-decoration: none;
+}

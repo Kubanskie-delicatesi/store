@@ -1,0 +1,16 @@
+@font-face {
+    font-family: "Comfortaa", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+}
+
+.bg {
+    background-color: #8fbd35;
+    padding: 20px;
+}
+.f1 { 
+    border-radius: 10px;
+    filter: brightness(60%);
+}
+
